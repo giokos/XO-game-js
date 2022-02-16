@@ -1,2 +1,2 @@
-# XO-game_Vue.js
+# XO-game_js
 game
