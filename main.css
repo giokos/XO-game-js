@@ -1,7 +1,38 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 .container {
-    
+    width: 300px;
+    height: 300px;
+    box-shadow: 0 0 8px #ddd;
+    margin: 50px auto;
+}
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: cadetblue;
+    border: 1px solid rgb(195, 195, 195);
+    float: left;
+    text-align: center;
+    line-height: 100px;
+    color: black;
+    font-size: 40px;
+    cursor: pointer;
+    user-select: none;
+}
+.player {
+    font-size: 40px;
+    text-transform: uppercase;
+    color: rgb(193, 197, 193);
+    height: 60px;
+    text-align: center;
+}
+.winner {
+    font-size: 40px;
+    text-transform: uppercase;
+    color: rgb(112, 255, 83);
+    height: 60px;
+    text-align: center;
 }
